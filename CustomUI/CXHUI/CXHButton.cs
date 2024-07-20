@@ -16,8 +16,11 @@ namespace CustomUI.CXHUI
 		private int borderRadius = 40;
 		private Color borderColor = Color.PaleVioletRed;
 
+		[Category("CXH Code Advance")]
 		public int BorderSize { get => borderSize; set { borderSize = value; this.Invalidate(); } }
-		public int BorderRadius { get => borderRadius; set { borderRadius = value; this.Invalidate(); } }
+		[Category("CXH Code Advance")]
+		public int BorderRadius { get => borderRadius; set { if (value <= this.Height) borderRadius = value; else borderRadius = this.Height; this.Invalidate(); } }
+		[Category("CXH Code Advance")]
 		public Color BorderColor { get => borderColor; set { borderColor = value; this.Invalidate(); } }
 		[Category("CXH Code Advance")]
 		public Color BackgroundColor
@@ -38,7 +41,9 @@ namespace CustomUI.CXHUI
 			this.Size = new Size(150, 40);
 			this.BackColor = Color.MediumSlateBlue;
 			this.ForeColor = Color.White;
+			this.Resize += new EventHandler(Button_Resize);
 		}
+
 
 		private GraphicsPath GetFigurePath(RectangleF rect, float radius)
 		{
@@ -96,6 +101,12 @@ namespace CustomUI.CXHUI
 		{
 			if (this.DesignMode)
 				this.Invalidate();
+		}
+
+		private void Button_Resize(object sender, EventArgs e)
+		{
+			if (borderRadius > this.Height)
+				BorderRadius = this.Height;
 		}
 	}
 }
