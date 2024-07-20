@@ -14,7 +14,6 @@ namespace CustomUI
 		public Form1()
 		{
 			InitializeComponent();
-			MessageBox.Show(cxhButton2.BorderRadius.ToString());
 		}
 	}
 }

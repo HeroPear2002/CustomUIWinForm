@@ -28,43 +28,41 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.cxhButton2 = new CustomUI.CXHUI.CXHButton();
+			this.cxhToggleButton2 = new CustomUI.CXHUI.CXHToggleButton();
 			this.SuspendLayout();
 			// 
-			// cxhButton2
+			// cxhToggleButton2
 			// 
-			this.cxhButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.cxhButton2.BorderRadius = 100;
-			this.cxhButton2.BorderSize = 0;
-			this.cxhButton2.FlatAppearance.BorderSize = 0;
-			this.cxhButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.cxhButton2.ForeColor = System.Drawing.Color.White;
-			this.cxhButton2.Location = new System.Drawing.Point(171, 54);
-			this.cxhButton2.Name = "cxhButton2";
-			this.cxhButton2.Size = new System.Drawing.Size(244, 152);
-			this.cxhButton2.TabIndex = 0;
-			this.cxhButton2.Text = "cxhButton2";
-			this.cxhButton2.TextColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton2.UseVisualStyleBackColor = false;
+			this.cxhToggleButton2.AutoSize = true;
+			this.cxhToggleButton2.Location = new System.Drawing.Point(448, 163);
+			this.cxhToggleButton2.MinimumSize = new System.Drawing.Size(45, 22);
+			this.cxhToggleButton2.Name = "cxhToggleButton2";
+			this.cxhToggleButton2.OffBackColor = System.Drawing.Color.Gray;
+			this.cxhToggleButton2.OffToggleColor = System.Drawing.Color.Gainsboro;
+			this.cxhToggleButton2.OnBackColor = System.Drawing.Color.Gray;
+			this.cxhToggleButton2.OnToggleColor = System.Drawing.Color.PaleGreen;
+			this.cxhToggleButton2.Size = new System.Drawing.Size(45, 22);
+			this.cxhToggleButton2.SolidStyle = false;
+			this.cxhToggleButton2.TabIndex = 1;
+			this.cxhToggleButton2.UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(632, 278);
-			this.Controls.Add(this.cxhButton2);
+			this.ClientSize = new System.Drawing.Size(1017, 561);
+			this.Controls.Add(this.cxhToggleButton2);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
 		#endregion
 
 		private CXHUI.CXHButton cxhButton1;
-		private CXHUI.CXHButton cxhButton2;
+		private CXHUI.CXHToggleButton cxhToggleButton2;
 	}
 }
 
