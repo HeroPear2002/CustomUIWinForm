@@ -28,33 +28,33 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.cxhButton1 = new CustomUI.CXHUI.CXHButton();
+			this.cxhButton2 = new CustomUI.CXHUI.CXHButton();
 			this.SuspendLayout();
 			// 
-			// cxhButton1
+			// cxhButton2
 			// 
-			this.cxhButton1.BackColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton1.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.cxhButton1.BorderRadius = 40;
-			this.cxhButton1.BorderSize = 0;
-			this.cxhButton1.FlatAppearance.BorderSize = 0;
-			this.cxhButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.cxhButton1.ForeColor = System.Drawing.Color.White;
-			this.cxhButton1.Location = new System.Drawing.Point(59, 12);
-			this.cxhButton1.Name = "cxhButton1";
-			this.cxhButton1.Size = new System.Drawing.Size(420, 186);
-			this.cxhButton1.TabIndex = 0;
-			this.cxhButton1.Text = "cxhButton1";
-			this.cxhButton1.TextColor = System.Drawing.Color.MediumSlateBlue;
-			this.cxhButton1.UseVisualStyleBackColor = false;
+			this.cxhButton2.BackColor = System.Drawing.Color.MediumSlateBlue;
+			this.cxhButton2.BackgroundColor = System.Drawing.Color.MediumSlateBlue;
+			this.cxhButton2.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.cxhButton2.BorderRadius = 100;
+			this.cxhButton2.BorderSize = 0;
+			this.cxhButton2.FlatAppearance.BorderSize = 0;
+			this.cxhButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.cxhButton2.ForeColor = System.Drawing.Color.White;
+			this.cxhButton2.Location = new System.Drawing.Point(171, 54);
+			this.cxhButton2.Name = "cxhButton2";
+			this.cxhButton2.Size = new System.Drawing.Size(244, 152);
+			this.cxhButton2.TabIndex = 0;
+			this.cxhButton2.Text = "cxhButton2";
+			this.cxhButton2.TextColor = System.Drawing.Color.MediumSlateBlue;
+			this.cxhButton2.UseVisualStyleBackColor = false;
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(632, 278);
-			this.Controls.Add(this.cxhButton1);
+			this.Controls.Add(this.cxhButton2);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.ResumeLayout(false);
@@ -64,6 +64,7 @@
 		#endregion
 
 		private CXHUI.CXHButton cxhButton1;
+		private CXHUI.CXHButton cxhButton2;
 	}
 }
 

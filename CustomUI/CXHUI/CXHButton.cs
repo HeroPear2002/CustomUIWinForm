@@ -19,7 +19,23 @@ namespace CustomUI.CXHUI
 		[Category("CXH Code Advance")]
 		public int BorderSize { get => borderSize; set { borderSize = value; this.Invalidate(); } }
 		[Category("CXH Code Advance")]
-		public int BorderRadius { get => borderRadius; set { if (value <= this.Height) borderRadius = value; else borderRadius = this.Height; this.Invalidate(); } }
+		public int BorderRadius
+		{
+			get => borderRadius;
+			set
+			{
+				if (value <= this.Height || value <= this.Width)
+					borderRadius = value;
+				else
+				{
+					if(this.Height >= this.Width)
+						borderRadius = this.Width;
+					else
+						borderRadius = this.Height;
+				}
+				this.Invalidate();
+			}
+		}
 		[Category("CXH Code Advance")]
 		public Color BorderColor { get => borderColor; set { borderColor = value; this.Invalidate(); } }
 		[Category("CXH Code Advance")]
@@ -105,8 +121,14 @@ namespace CustomUI.CXHUI
 
 		private void Button_Resize(object sender, EventArgs e)
 		{
-			if (borderRadius > this.Height)
-				BorderRadius = this.Height;
+			if (borderRadius > this.Height || borderRadius >this.Width)
+			{
+				if(this.Height >= this.Width)
+					BorderRadius = this.Width;
+				else BorderRadius = this.Height;
+			}
+				
+
 		}
 	}
 }
