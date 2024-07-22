@@ -9,7 +9,7 @@ using System.Drawing.Drawing2D;
 using System.ComponentModel;
 namespace CustomUI.CXHUI
 {
-	class CXHCircularPictureBox : PictureBox
+	public class CXHCircularPictureBox : PictureBox
 	{
 		//Fields
 		private int borderSize = 2;

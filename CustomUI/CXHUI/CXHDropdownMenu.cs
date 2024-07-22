@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace CustomUI.CXHUI
 {
-	class CXHDropdownMenu : ContextMenuStrip
+	public class CXHDropdownMenu : ContextMenuStrip
 	{
 		//Fields
 		private bool isMainMenu;

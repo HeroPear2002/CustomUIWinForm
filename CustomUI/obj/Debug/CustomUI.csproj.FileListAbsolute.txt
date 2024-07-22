@@ -1,5 +1,3 @@
-D:\BT\CustomUI\CustomUI\bin\Debug\CustomUI.exe.config
-D:\BT\CustomUI\CustomUI\bin\Debug\CustomUI.exe
 D:\BT\CustomUI\CustomUI\bin\Debug\CustomUI.pdb
 D:\BT\CustomUI\CustomUI\bin\Debug\DevExpress.BonusSkins.v19.2.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\DevExpress.Data.v19.2.dll
@@ -44,9 +42,7 @@ D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.Properties.Resources.resources
 D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.csproj.GenerateResource.cache
 D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.csproj.CoreCompileInputs.cache
 D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.csproj.CopyComplete
-D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.exe
 D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.pdb
-D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.exe.licenses
 D:\BT\CustomUI\CustomUI\bin\Debug\DevExpress.XtraGrid.v19.2.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\DevExpress.XtraLayout.v19.2.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\DevExpress.XtraPrinting.v19.2.dll
@@ -91,3 +87,7 @@ D:\BT\CustomUI\CustomUI\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.CXHUI.CXHTextBox.resources
+D:\BT\CustomUI\CustomUI\bin\Debug\CustomUI.dll.config
+D:\BT\CustomUI\CustomUI\bin\Debug\CustomUI.dll
+D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.dll.licenses
+D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.dll

@@ -8,7 +8,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 namespace CustomUI.CXHUI
 {
-	class CXHRadioButton : RadioButton
+	public class CXHRadioButton : RadioButton
 	{
 		//Fields
 		private Color checkedColor = Color.MediumSlateBlue;

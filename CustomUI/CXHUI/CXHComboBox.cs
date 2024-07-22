@@ -12,7 +12,7 @@ using System.Drawing.Design;
 namespace CustomUI.CXHUI
 {
 	[DefaultEvent("OnSelectedIndexChanged")]
-	class CXHComboBox : UserControl
+	public class CXHComboBox : UserControl
 	{
 		//Fields
 		private Color backColor = Color.WhiteSmoke;

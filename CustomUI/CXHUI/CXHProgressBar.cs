@@ -17,7 +17,7 @@ namespace CustomUI.CXHUI
 		Sliding,
 		None
 	}
-	class CXHProgressBar : ProgressBar
+	public class CXHProgressBar : ProgressBar
 	{
 		//Fields
 		//-> Appearance
