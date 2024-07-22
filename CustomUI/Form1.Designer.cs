@@ -28,14 +28,76 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.cxhTextBox3 = new CustomUI.CXHUI.CXHTextBox();
+			this.cxhTextBox2 = new CustomUI.CXHUI.CXHTextBox();
+			this.cxhCircularPictureBox1 = new CustomUI.CXHUI.CXHCircularPictureBox();
 			this.cxhComboBox1 = new CustomUI.CXHUI.CXHComboBox();
 			this.cxhToggleButton1 = new CustomUI.CXHUI.CXHToggleButton();
 			this.cxhRadioButton1 = new CustomUI.CXHUI.CXHRadioButton();
 			this.cxhButton2 = new CustomUI.CXHUI.CXHButton();
 			this.cxhTextBox1 = new CustomUI.CXHUI.CXHTextBox();
-			this.cxhCircularPictureBox1 = new CustomUI.CXHUI.CXHCircularPictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.cxhCircularPictureBox1)).BeginInit();
 			this.SuspendLayout();
+			// 
+			// cxhTextBox3
+			// 
+			this.cxhTextBox3.BackColor = System.Drawing.SystemColors.Window;
+			this.cxhTextBox3.BorderColor = System.Drawing.Color.MediumSlateBlue;
+			this.cxhTextBox3.BorderFocusColor = System.Drawing.Color.HotPink;
+			this.cxhTextBox3.BorderRadius = 0;
+			this.cxhTextBox3.BorderSize = 2;
+			this.cxhTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cxhTextBox3.ForeColor = System.Drawing.Color.DimGray;
+			this.cxhTextBox3.Location = new System.Drawing.Point(82, 111);
+			this.cxhTextBox3.Margin = new System.Windows.Forms.Padding(4);
+			this.cxhTextBox3.Multiline = false;
+			this.cxhTextBox3.Name = "cxhTextBox3";
+			this.cxhTextBox3.Padding = new System.Windows.Forms.Padding(7);
+			this.cxhTextBox3.PasswordChar = false;
+			this.cxhTextBox3.PlaceholderColor = System.Drawing.Color.DarkGray;
+			this.cxhTextBox3.PlaceholderText = "";
+			this.cxhTextBox3.Size = new System.Drawing.Size(729, 31);
+			this.cxhTextBox3.TabIndex = 7;
+			this.cxhTextBox3.Texts = "";
+			this.cxhTextBox3.UnderlinedStyle = false;
+			this.cxhTextBox3._TextChanged += new System.EventHandler(this.cxhTextBox3__TextChanged);
+			// 
+			// cxhTextBox2
+			// 
+			this.cxhTextBox2.BackColor = System.Drawing.SystemColors.Window;
+			this.cxhTextBox2.BorderColor = System.Drawing.Color.MediumSlateBlue;
+			this.cxhTextBox2.BorderFocusColor = System.Drawing.Color.HotPink;
+			this.cxhTextBox2.BorderRadius = 0;
+			this.cxhTextBox2.BorderSize = 2;
+			this.cxhTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cxhTextBox2.ForeColor = System.Drawing.Color.DimGray;
+			this.cxhTextBox2.Location = new System.Drawing.Point(232, 177);
+			this.cxhTextBox2.Margin = new System.Windows.Forms.Padding(4);
+			this.cxhTextBox2.Multiline = false;
+			this.cxhTextBox2.Name = "cxhTextBox2";
+			this.cxhTextBox2.Padding = new System.Windows.Forms.Padding(7);
+			this.cxhTextBox2.PasswordChar = false;
+			this.cxhTextBox2.PlaceholderColor = System.Drawing.Color.DarkGray;
+			this.cxhTextBox2.PlaceholderText = "";
+			this.cxhTextBox2.Size = new System.Drawing.Size(192, 31);
+			this.cxhTextBox2.TabIndex = 6;
+			this.cxhTextBox2.Texts = "";
+			this.cxhTextBox2.UnderlinedStyle = false;
+			// 
+			// cxhCircularPictureBox1
+			// 
+			this.cxhCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Triangle;
+			this.cxhCircularPictureBox1.BorderColor = System.Drawing.Color.RoyalBlue;
+			this.cxhCircularPictureBox1.BorderColor2 = System.Drawing.Color.HotPink;
+			this.cxhCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
+			this.cxhCircularPictureBox1.BorderSize = 5;
+			this.cxhCircularPictureBox1.GradientAngle = 50F;
+			this.cxhCircularPictureBox1.Location = new System.Drawing.Point(641, 238);
+			this.cxhCircularPictureBox1.Name = "cxhCircularPictureBox1";
+			this.cxhCircularPictureBox1.Size = new System.Drawing.Size(253, 253);
+			this.cxhCircularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.cxhCircularPictureBox1.TabIndex = 5;
+			this.cxhCircularPictureBox1.TabStop = false;
 			// 
 			// cxhComboBox1
 			// 
@@ -48,7 +110,7 @@
 			this.cxhComboBox1.IconColor = System.Drawing.Color.MediumSlateBlue;
 			this.cxhComboBox1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
 			this.cxhComboBox1.ListTextColor = System.Drawing.Color.DimGray;
-			this.cxhComboBox1.Location = new System.Drawing.Point(585, 202);
+			this.cxhComboBox1.Location = new System.Drawing.Point(568, 162);
 			this.cxhComboBox1.MinimumSize = new System.Drawing.Size(200, 30);
 			this.cxhComboBox1.Name = "cxhComboBox1";
 			this.cxhComboBox1.Padding = new System.Windows.Forms.Padding(1);
@@ -105,6 +167,7 @@
 			// 
 			// cxhTextBox1
 			// 
+			this.cxhTextBox1.BackColor = System.Drawing.SystemColors.Window;
 			this.cxhTextBox1.BorderColor = System.Drawing.Color.MediumSlateBlue;
 			this.cxhTextBox1.BorderFocusColor = System.Drawing.Color.HotPink;
 			this.cxhTextBox1.BorderRadius = 0;
@@ -124,26 +187,13 @@
 			this.cxhTextBox1.Texts = "";
 			this.cxhTextBox1.UnderlinedStyle = false;
 			// 
-			// cxhCircularPictureBox1
-			// 
-			this.cxhCircularPictureBox1.BorderCapStyle = System.Drawing.Drawing2D.DashCap.Triangle;
-			this.cxhCircularPictureBox1.BorderColor = System.Drawing.Color.RoyalBlue;
-			this.cxhCircularPictureBox1.BorderColor2 = System.Drawing.Color.HotPink;
-			this.cxhCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
-			this.cxhCircularPictureBox1.BorderSize = 5;
-			this.cxhCircularPictureBox1.GradientAngle = 50F;
-			this.cxhCircularPictureBox1.Location = new System.Drawing.Point(641, 238);
-			this.cxhCircularPictureBox1.Name = "cxhCircularPictureBox1";
-			this.cxhCircularPictureBox1.Size = new System.Drawing.Size(253, 253);
-			this.cxhCircularPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.cxhCircularPictureBox1.TabIndex = 5;
-			this.cxhCircularPictureBox1.TabStop = false;
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1017, 561);
+			this.Controls.Add(this.cxhTextBox3);
+			this.Controls.Add(this.cxhTextBox2);
 			this.Controls.Add(this.cxhCircularPictureBox1);
 			this.Controls.Add(this.cxhComboBox1);
 			this.Controls.Add(this.cxhToggleButton1);
@@ -167,6 +217,8 @@
 		private CXHUI.CXHToggleButton cxhToggleButton1;
 		private CXHUI.CXHComboBox cxhComboBox1;
 		private CXHUI.CXHCircularPictureBox cxhCircularPictureBox1;
+		private CXHUI.CXHTextBox cxhTextBox2;
+		private CXHUI.CXHTextBox cxhTextBox3;
 	}
 }
 

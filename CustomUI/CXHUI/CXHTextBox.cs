@@ -15,9 +15,7 @@ namespace CustomUI.CXHUI
 	public partial class CXHTextBox : UserControl
 	{
 		public event EventHandler _TextChanged;
-
-		//Fields
-		//Fields
+		
 		private Color borderColor = Color.MediumSlateBlue;
 		private Color borderFocusColor = Color.HotPink;
 		private int borderSize = 2;

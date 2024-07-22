@@ -15,5 +15,10 @@ namespace CustomUI
 		{
 			InitializeComponent();
 		}
+
+		private void cxhTextBox3__TextChanged(object sender, EventArgs e)
+		{
+			MessageBox.Show(cxhTextBox3.Texts);
+		}
 	}
 }
