@@ -90,3 +90,4 @@ D:\BT\CustomUI\CustomUI\bin\Debug\de\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\es\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\ja\DevExpress.Office.v19.2.Core.resources.dll
 D:\BT\CustomUI\CustomUI\bin\Debug\ru\DevExpress.Office.v19.2.Core.resources.dll
+D:\BT\CustomUI\CustomUI\obj\Debug\CustomUI.CXHUI.CXHTextBox.resources
